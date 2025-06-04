@@ -12,6 +12,11 @@ $situacao2 = "RUIM";
 $situacao3 = "BOM";
 $situacao4 = "EXCELENTE";
 
+echo "Aluno: $aluno";
+echo "<br>";
+echo "Turma: $turma";
+echo "<br><br>";
+
 if ($bimestre1 < 4) {
     echo "1º Bimestre: {$bimestre1} | Situação: {$situacao1} <br>";
 } else if ($bimestre1 >= 4 && $bimestre1 < 6) {
