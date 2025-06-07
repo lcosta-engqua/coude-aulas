@@ -1,0 +1,3 @@
+<?php
+
+setcookie('cookie1', '');
