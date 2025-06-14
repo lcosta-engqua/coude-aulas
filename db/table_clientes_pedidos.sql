@@ -16,7 +16,7 @@ CREATE TABLE pedidos(
     FOREIGN KEY (id_cliente) REFERENCES clientes(id)
 );
 
-CREATE TABLE pedidos_detalhe(
+CREATE TABLE pedidos_produto(
 	id INT PRIMARY KEY AUTO_INCREMENT,
     id_produto INT,
     id_pedido INT,
