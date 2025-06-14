@@ -1,0 +1,12 @@
+DROP SCHEMA IF EXISTS banco_coude22;
+CREATE SCHEMA IF NOT EXISTS banco_coude22;
+USE banco_coude22;
+
+CREATE TABLE clientes(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    documento VARCHAR(20),
+    email VARCHAR(255) UNIQUE
+);
+
+CREATE TABLE 
