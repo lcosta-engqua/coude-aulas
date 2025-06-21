@@ -27,4 +27,4 @@ function pedidoCafe(int $cafe):string{
     }
 }
 
-echo pedidoCafe(1);
+echo pedidoCafe(2);
