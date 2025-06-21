@@ -40,3 +40,7 @@ foreach($carrinhoDeCompras as $keys => $itens){
     echo "</pre>";
     echo "<hr>";
 }
+
+
+// ter os produtos uma vez só 
+// $produtos_imprimir = ['caixaDeLeite', 'tomate']
